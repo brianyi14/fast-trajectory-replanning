@@ -1,1 +1,3 @@
 # fast-trajectory-replanning
+
+This project focuses on helping a single agent navigate through an environment with obstacles by discovering the fastest trajectory from the agent to the target destination. The heuristic search algorithm uses various renditions of A* including the basic forward and backward A* algorithms as well as an upgraded adaptive A* version. The adaptive A* algorithm constantly updates the heuristic component as the agent moves so the search trajectory is constantly replanned with higher accuracy. This is the first assignment to the Introduction to Artificial Intelligence course at Rutgers University.
